@@ -3,7 +3,7 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 
 public class Main{
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
         InetAddress ocsaly = InetAddress.getByName(host:"www.ocsaly.com");
         FileChannel;
         //UDP
