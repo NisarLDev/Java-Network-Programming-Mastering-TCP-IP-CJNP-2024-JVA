@@ -8,7 +8,7 @@ public class Main{
             URLConnection myUrlConnetion = url.openConnection();
             BufferReader br = new BufferReader(new InputStreamReader(myUrlConnection.getInputStream()));
             String myLine;
-            wjile ((myLine = br.readline()) != null){
+            while ((myLine = br.readline()) != null){
                 System.out.println(myLine);
             };
             br.close();
