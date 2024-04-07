@@ -14,8 +14,7 @@ public class Main{
     public static void main(String[] args) {
         int capacity = 64;
         try{
-            var urlString = ("https://ocsaly.com");
-            var url = new URI(urlString).toURL();
+            var url = URI.create("https://ocsaly.com").toURL();
             URLConnection urlConnection = url.openConnection();
 
             InputStream inputStream = urlConnection.getInputStream();
@@ -24,7 +23,7 @@ public class Main{
 
             String line = null;
             while (readableByteChannel.read(buffer) > 0){
-                System.out.println(new String(Buffer.array()));
+                System.out.println(new String(buffer.array()));
                 buffer.clear();
             }
             readableByteChannel.close();
@@ -34,4 +33,3 @@ public class Main{
         };
     };
 };
-
