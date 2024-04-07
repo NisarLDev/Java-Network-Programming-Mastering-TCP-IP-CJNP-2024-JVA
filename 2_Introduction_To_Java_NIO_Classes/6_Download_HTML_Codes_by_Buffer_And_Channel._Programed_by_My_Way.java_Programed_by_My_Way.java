@@ -1,5 +1,9 @@
-import java.net.URL;
+import java.net.URI;
 import java.net.URLConnection;
+import java.io.InputStream;
+import java.io.IOException;
+import java.nio.*;
+import java.util.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
@@ -8,14 +12,16 @@ public class Main{
     private static ByteBuffer buffer;
 
     public static void main(String[] args) {
+        int capacity = 64;
         try{
-            URL url_= new URL("https://ocsaly.com");
+            var urlString = ("https://ocsaly.com");
+            var url = new URI(urlString).toURL();
             URLConnection urlConnection = url.openConnection();
 
             InputStream inputStream = urlConnection.getInputStream();
-            ReadableByteChannel readableByteChannel = Channels.newChannel(InputStream);
-            ByteBuffer buffer = ByteBuffer.alocate(64);
-            
+            ReadableByteChannel readableByteChannel = Channels.newChannel(inputStream);
+            ByteBuffer buffer = ByteBuffer.allocate(capacity);
+
             String line = null;
             while (readableByteChannel.read(buffer) > 0){
                 System.out.println(new String(Buffer.array()));
@@ -28,3 +34,4 @@ public class Main{
         };
     };
 };
+
