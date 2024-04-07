@@ -5,7 +5,7 @@ public class Main{
     public static void main(String[] args) throws IOException{
         try{
             URL url_= new URL("https://ocsaly.com");
-            URLConnection myUrlConnetion = url.openConnection();
+            URLConnection myUrlConnection = url.openConnection();
             BufferReader br = new BufferReader(new InputStreamReader(myUrlConnection.getInputStream()));
             String myLine;
             while ((myLine = br.readline()) != null){
