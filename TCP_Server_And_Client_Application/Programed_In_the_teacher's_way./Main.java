@@ -19,8 +19,7 @@ public class Main {
         try {
             serverSocket = new ServerSocket(PORT); // STEP 1
         } catch (IOException ioException) {
-            System.out.println("UNABLE TO ATTACH TO PORT ! EXCEPTION : " + ioExc
-eption.getMessage());
+            System.out.println("UNABLE TO ATTACH TO PORT ! EXCEPTION : " + ioException.getMessage());
             System.exit(1);
         }
         do {
