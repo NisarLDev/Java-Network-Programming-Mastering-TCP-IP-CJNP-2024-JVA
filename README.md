@@ -20,7 +20,7 @@ With Java 17 Version:
 
 1 - https://onecompiler.com/java/
 
-With Java 21 Version and connection with Internet:
+With Java 21 Version and connection with Internet for testing:
 
 1 - https://www.jdoodle.com/online-java-compiler
 
