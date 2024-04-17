@@ -1,13 +1,9 @@
 ## Java-Network-Programming-Mastering-TCP-IP-CJNP-2024-JVA
 
 
-
 ### Bibliography
 
-
-
 #### Java Compilers
-
 
 With Java 11 Version:
 
