@@ -6,7 +6,7 @@
 
 #### Java 
 
-1 - Secure Programming in Java Language. Ray Toal. Computer Science Department, Loyola Marymount University.
+1 - Secure Programming in Java Language. Ray Toal. Computer Science Department, College of Science and Engineering of the Loyola Marymount University. Los Ángeles, EEUU.
 
 https://cs.lmu.edu/~ray/notes/securejava/
 
