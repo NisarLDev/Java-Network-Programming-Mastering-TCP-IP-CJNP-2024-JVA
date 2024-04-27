@@ -10,6 +10,10 @@
 
 https://cs.lmu.edu/~ray/notes/securejava/
 
+2 - SEI CERT Java Coding Standard. Carnegie Mellon University. Pittsburgh, EEUU.
+
+https://wiki.sei.cmu.edu/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java
+
 #### Java Compilers
 
 With Java 11 Version:
