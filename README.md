@@ -3,6 +3,13 @@
 
 ### Bibliography
 
+
+#### Java 
+
+1 - Secure Programming in Java Language. Ray Toal. Computer Science Department, Loyola Marymount University.
+
+https://cs.lmu.edu/~ray/notes/securejava/
+
 #### Java Compilers
 
 With Java 11 Version:
