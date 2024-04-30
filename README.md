@@ -31,7 +31,7 @@ With Java 21 Version and connection with Internet for testing:
 1 - https://www.jdoodle.com/online-java-compiler
 
 
-# Bibliography of URL and URI, ByteBuffer and InputStream Classes for Java 20 OR new versions
+### Bibliography of URL and URI, ByteBuffer and InputStream Classes for Java 20 OR new versions
 
 
 new URL("") is Deprecated #java #shorts - YouTube
