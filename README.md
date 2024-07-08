@@ -34,8 +34,9 @@ With Java 21 Version and connection with Internet for testing:
 ### Bibliography of URL and URI, ByteBuffer and InputStream Classes for Java 20 OR new versions
 
 
-new URL("") is Deprecated #java #shorts - YouTube
-https://www.youtube.com/watch?v=0f76rVS_HSY
+1 - new URL("") is Deprecated #java #shorts - YouTube.
+
+  https://www.youtube.com/watch?v=0f76rVS_HSY
 
 How to replace the deprecated URL constructors in Java 20? - Stack Overflow
 https://stackoverflow.com/questions/75966165/how-to-replace-the-deprecated-url-constructors-in-java-20
