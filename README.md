@@ -45,7 +45,7 @@ With Java 21 Version and connection with Internet for testing:
 
 3 - java.nio.ByteBuffer Class in Java - GeeksforGeeks
 
-    https://www.geeksforgeeks.org/java-nio-bytebuffer-class-in-java/
+  https://www.geeksforgeeks.org/java-nio-bytebuffer-class-in-java/
 
 ByteBuffer array() method in Java with Examples - GeeksforGeeks
 https://www.geeksforgeeks.org/bytebuffer-array-method-in-java-with-examples/
