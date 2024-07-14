@@ -50,8 +50,7 @@ public class Main {
 
         } catch (IOException ioException) {
             ioException.printStackTrace();
-        }
-        finally {
+        } finally {
             System.out.println("\n *CLOSING THE CONNECTION*");
             datagramSocket.close();
 
