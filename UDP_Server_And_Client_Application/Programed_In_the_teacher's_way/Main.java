@@ -36,7 +36,6 @@ public class Main {
                 buffer = new byte[256];         //STEP 2
                 inPacket = new DatagramPacket(buffer, buffer.length); //STEP 3
                 datagramSocket.receive(inPacket);                   //STEP 4
-
                 clientAddress = inPacket.getAddress();              //STEP 5
                 clientPort = inPacket.getPort();
 
