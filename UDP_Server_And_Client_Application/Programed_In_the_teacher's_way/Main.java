@@ -42,8 +42,7 @@ public class Main {
                 System.out.println("Message Received");
                 numMessages++;
                 messageOut = "Message " + numMessages + " : " + messageIn;
-                outPacket = new DatagramPacket(messageOut.getBytes(), messageOut
-.length(), clientAddress, clientPort); //STEP 7
+                outPacket = new DatagramPacket(messageOut.getBytes(), messageOut.length(), clientAddress, clientPort); //STEP 7
                 datagramSocket.send(outPacket);  //STEP 8
                 System.out.println("MESSAGE : " + messageOut);
             } while (true);
