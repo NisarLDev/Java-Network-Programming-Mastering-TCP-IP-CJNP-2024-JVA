@@ -36,8 +36,7 @@ public class ClientDatagram {
 ength(), host, PORT); //STEP 2
                     datagramSocket.send(outPacket); //STEP 3
                     buffer = new byte[256]; //STEP 5
-                    inPacket = new DatagramPacket(buffer, buffer.length); //STEP
- 5
+                    inPacket = new DatagramPacket(buffer, buffer.length); //STEP 5
                     datagramSocket.receive(inPacket); //STEP 6
                     response = new String(inPacket.getData(), 0, inPacket.getLen
 gth()); //STEP 7
