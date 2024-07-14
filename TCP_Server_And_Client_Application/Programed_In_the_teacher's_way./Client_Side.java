@@ -32,8 +32,7 @@ public class ClientSide {
             link = new Socket(host, PORT);   // STEP 1
             Scanner input = new Scanner(link.getInputStream()); // STEP 2
 
-            PrintWriter output = new PrintWriter(link.getOutputStream(), true); 
-// STEP 2
+            PrintWriter output = new PrintWriter(link.getOutputStream(), true); // STEP 2
             Scanner userEntry = new Scanner(System.in);
             String message, response;
             do {
