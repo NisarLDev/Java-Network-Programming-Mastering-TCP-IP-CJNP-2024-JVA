@@ -32,8 +32,7 @@ public class ClientDatagram {
                 System.out.println("Enter Message : ");
                 message = userEntry.nextLine();
                 if (!message.equals("***CLOSE***")) {
-                    outPacket = new DatagramPacket(message.getBytes(), message.l
-ength(), host, PORT); //STEP 2
+                    outPacket = new DatagramPacket(message.getBytes(), message.length(), host, PORT); //STEP 2
                     datagramSocket.send(outPacket); //STEP 3
                     buffer = new byte[256]; //STEP 5
                     inPacket = new DatagramPacket(buffer, buffer.length); //STEP 5
