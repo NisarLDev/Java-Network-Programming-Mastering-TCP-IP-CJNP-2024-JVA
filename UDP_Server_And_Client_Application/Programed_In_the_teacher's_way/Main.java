@@ -38,7 +38,6 @@ public class Main {
                 datagramSocket.receive(inPacket);                   //STEP 4
                 clientAddress = inPacket.getAddress();              //STEP 5
                 clientPort = inPacket.getPort();
-
                 messageIn = new String(inPacket.getData(), 0, inPacket.getLength
 ());  //STEP 6
                 System.out.println("Message Received");
