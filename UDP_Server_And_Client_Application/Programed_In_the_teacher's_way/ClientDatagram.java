@@ -47,7 +47,7 @@ public class ClientDatagram {
             ioException.printStackTrace();
             System.out.println("ERROR" + ioException.getMessage());
 
-        }finally {
+        } finally {
             System.out.println("\n * Closing connection ... *");
             datagramSocket.close();  // STEP 8
 
