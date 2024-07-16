@@ -67,8 +67,9 @@ With Java 21 Version and connection with Internet for testing:
 
   https://github.com/eugenp/tutorials/tree/master/core-java-modules/core-java-nio-2
 
-Guide to ByteBuffer | Baeldung
-https://www.baeldung.com/java-bytebuffer
+9 - Guide to ByteBuffer | Baeldung
+  
+  https://www.baeldung.com/java-bytebuffer
 
 Java InputStream (With Example)
 https://www.programiz.com/java-programming/inputstream
