@@ -42,7 +42,6 @@ With Java 21 Version and connection with Internet for testing:
 
   https://stackoverflow.com/questions/75966165/how-to-replace-the-deprecated-url-constructors-in-java-20
 
-
 3 - java.nio.ByteBuffer Class in Java - GeeksforGeeks
 
   https://www.geeksforgeeks.org/java-nio-bytebuffer-class-in-java/
