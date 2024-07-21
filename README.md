@@ -70,8 +70,9 @@ With Java 21 Version and connection with Internet for testing:
   
   https://www.baeldung.com/java-bytebuffer
 
-Java InputStream (With Example)
-https://www.programiz.com/java-programming/inputstream
+10 - Java InputStream (With Example)
+
+  https://www.programiz.com/java-programming/inputstream
 
 Java.io.InputStream Class in Java - GeeksforGeeks
 https://www.geeksforgeeks.org/java-io-inputstream-class-in-java/
